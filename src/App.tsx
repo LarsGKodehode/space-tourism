@@ -1,4 +1,4 @@
-import ComponentTemplate from "components/ComponentTemplate";
+import ComponentTemplate from 'components/ComponentTemplate';
 
 function App() {
   return (
