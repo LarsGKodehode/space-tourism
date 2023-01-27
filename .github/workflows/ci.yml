@@ -2,14 +2,13 @@ name: ci
 
 on:
   push:
-    branches: [ "main" ]
+    branches: ['main']
 
   pull_request:
-    branches: [ "main" ]
+    branches: ['main']
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
 
     steps:
@@ -20,8 +19,8 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: 16.x
-          cach: "npm"
-        
+          cach: 'npm'
+
       - name: install dependencies
         run: yarn install --immutable --prefer-offline
 
