@@ -12,7 +12,8 @@
     "lint:prettier": "prettier --write .",
     "lint:eslint": "eslint .",
     "test": "vitest",
-    "test:ui": "vitest --ui"
+    "test:ui": "vitest --ui",
+    "ci": "yarn lint && yarn test run"
   },
   "dependencies": {
     "react": "^18.2.0",
