@@ -1,14 +1,14 @@
 import { describe, test } from 'vitest';
 import { render, screen } from '@testing-library/react';
 import {} from '@testing-library/jest-dom';
-import TemplateComponent from '../Template';
+import ComponentTemplate from '../Template';
 
 describe('Accordion test', () => {
   beforeEach(() => {
     render(
-      <TemplateComponent title="Testing">
+      <ComponentTemplate title="Testing">
         <h4 data-testid="children">Content</h4>
-      </TemplateComponent>
+      </ComponentTemplate>
     );
   });
 

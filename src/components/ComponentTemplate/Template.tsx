@@ -18,7 +18,7 @@ export function sum(a: number, b: number) {
 /**
  * Simple accordion working as a template for new components
  */
-export default function TemplateComponent({ title, children }: Props) {
+export default function ComponentTemplate({ title, children }: Props) {
   const [show, setShow] = useState(false);
 
   function toggleShow() {
