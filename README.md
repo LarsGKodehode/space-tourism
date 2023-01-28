@@ -45,6 +45,10 @@ TODO: Descripe process
 
     Starting of without a backend and needed some form for routing. React Router was the most used library for providing that functionality to the page.
 
+  - <u>ZustandReact Query</u><br/>
+
+    Added so I do not have to think too deeply about caching network requests.
+
   - <u>Zustand</u><br/>
 
     Only incorporated becuse I need some more experience working with some kind of 'global' state.
